@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "mergemod:silver_ore",
+    "mergemod:deepslate_silver_ore",
+    "mergemod:silver_block",
+    "mergemod:steel_block",
+    "mergemod:rose_gold_block"
+  ]
+}

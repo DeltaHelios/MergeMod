@@ -1,6 +1,38 @@
 {
   "item.mergemod.opposite_catalyst": "Opposite Catalyst",
   "item.mergemod.similar_catalyst": "Similar Catalyst",
+  "item.mergemod.empty_catalyst": "Empty Catalyst",
+  "item.mergemod.symbiosis_catalyst": "Symbiosis Catalyst",
+  "item.mergemod.overflow_catalyst": "Overflow Catalyst",
+  "item.mergemod.overgrowth_catalyst": "Overgrowth Catalyst",
+  "item.mergemod.overcharge_catalyst": "Overcharge Catalyst",
 
-  "itemgroup.catalyst": "Catalysts"
+  "block.mergemod.rose_gold_block": "Rose Gold Block",
+  "block.mergemod.steel_block": "Steel Block",
+  "block.mergemod.silver_block": "Silver Block",
+
+  "block.mergemod.silver_ore": "Silver Ore",
+  "block.mergemod.deepslate_silver_ore": "Deepslate Silver Ore",
+
+  "block.mergemod.sonic_box": "Sonic Box",
+
+
+  "item.mergemod.steel_ingot": "Steel Ingot",
+  "item.mergemod.rose_gold_ingot": "Rose Gold Ingot",
+  "item.mergemod.silver_ingot":"Silver Ingot",
+
+  "item.mergemod.raw_silver": "Raw Silver",
+
+  "item.mergemod.blazing_coal": "Blazing Coal",
+
+  "item.mergemod.tectonic_detector": "Tectonic Detector",
+  "item.mergemod.hemlock_staff": "Hemlock Staff",
+
+  "key.category.mergemod.mergemod": "Mergemod",
+  "key.mergemod.ability": "Primary Ability",
+
+  "itemgroup.catalyst": "Catalysts",
+  "itemgroup.ingridients": "Ingridients",
+  "itemgroup.tools": "Tools",
+  "itemgroup.blocks": "Utility Blocks"
 }

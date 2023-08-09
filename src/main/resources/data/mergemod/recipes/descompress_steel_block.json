@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "mergemod:steel_block"
+    }
+  ],
+  "result": {
+    "item": "mergemod:steel_ingot",
+    "count": 9
+  }
+}

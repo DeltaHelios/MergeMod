@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.7,
+  "group": "silver_ingot",
+  "ingredient": {
+    "item": "mergemod:raw_silver"
+  },
+  "result": "mergemod:silver_ingot"
+}

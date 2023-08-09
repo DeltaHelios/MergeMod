@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mergemod:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "mergemod:steel_block",
+    "count": 1
+  }
+}
