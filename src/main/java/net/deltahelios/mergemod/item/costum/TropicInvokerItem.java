@@ -26,7 +26,7 @@ import net.minecraft.world.gen.feature.util.FeatureContext;
 
 import java.util.Optional;
 
-public abstract class TropicInvokerItem extends Item {
+public class TropicInvokerItem extends Item {
 
     public TropicInvokerItem(Settings settings) {
         super(settings);
