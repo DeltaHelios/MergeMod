@@ -36,6 +36,7 @@ public class ModItemGroups {
                         entries.add(ModItems.STEEL_INGOT);
                         entries.add(ModItems.ROSE_GOLD_INGOT);
                         entries.add(ModItems.SILVER_INGOT);
+                        entries.add(ModItems.ELECTRUM_INGOT);
                         entries.add(ModItems.RAW_SILVER);
                         entries.add(ModBlocks.ROSE_GOLD_BLOCK);
                         entries.add(ModBlocks.STEEL_BLOCK);

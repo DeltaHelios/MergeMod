@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mergemod:block/alloy_forge"
+    },
+    "facing=south": {
+      "model": "mergemod:block/alloy_forge",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mergemod:block/alloy_forge",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "mergemod:block/alloy_forge",
+      "y": 90
+    }
+  }
+}

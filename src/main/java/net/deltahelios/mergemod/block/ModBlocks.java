@@ -1,6 +1,7 @@
 package net.deltahelios.mergemod.block;
 
 import net.deltahelios.mergemod.MergeMod;
+import net.deltahelios.mergemod.block.costum.AlloyForgeBlock;
 import net.deltahelios.mergemod.block.costum.SonicBoxBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -21,6 +22,7 @@ public class ModBlocks {
     public static final Block SILVER_ORE = registerBlock("silver_ore", new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.GOLD_ORE), UniformIntProvider.create(2,6)));
     public static final Block DEEPSLATE_SILVER_ORE = registerBlock("deepslate_silver_ore", new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_GOLD_ORE), UniformIntProvider.create(2,6)));
     public static final Block SILVER_BLOCK = registerBlock("silver_block", new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+    public static final Block ALLOY_FORGE = registerBlock("alloy_forge", new AlloyForgeBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);

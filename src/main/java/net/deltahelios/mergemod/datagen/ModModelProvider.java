@@ -1,28 +1,34 @@
 package net.deltahelios.mergemod.datagen;
 
+import net.deltahelios.mergemod.MergeMod;
 import net.deltahelios.mergemod.block.ModBlocks;
 import net.deltahelios.mergemod.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
+import net.minecraft.block.Block;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
-import net.minecraft.data.client.Model;
 import net.minecraft.data.client.Models;
-import net.minecraft.item.BlockItem;
+import net.minecraft.registry.Registries;
+import net.minecraft.util.Identifier;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
         super(output);
     }
+    private void fullBlock(BlockStateModelGenerator blockStateModelGenerator, Block block) {
+        blockStateModelGenerator.registerSimpleCubeAll(block);
+        blockStateModelGenerator.registerParentedItemModel(block, new Identifier(MergeMod.MOD_ID, "block/" + Registries.BLOCK.getId(block).getPath()));
+    }
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SILVER_BLOCK);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SILVER_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_SILVER_ORE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.STEEL_BLOCK);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ROSE_GOLD_BLOCK);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SONIC_BOX);
+        fullBlock(blockStateModelGenerator, ModBlocks.SILVER_BLOCK);
+        fullBlock(blockStateModelGenerator, ModBlocks.SILVER_ORE);
+        fullBlock(blockStateModelGenerator, ModBlocks.DEEPSLATE_SILVER_ORE);
+        fullBlock(blockStateModelGenerator, ModBlocks.STEEL_BLOCK);
+        fullBlock(blockStateModelGenerator, ModBlocks.ROSE_GOLD_BLOCK);
+        fullBlock(blockStateModelGenerator, ModBlocks.SONIC_BOX);
     }
 
 
@@ -31,6 +37,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.BLAZING_COAL, Models.GENERATED);
         itemModelGenerator.register(ModItems.TECTONIC_DETECTOR, Models.GENERATED);
         itemModelGenerator.register(ModItems.STEEL_INGOT, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ELECTRUM_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.EMPTY_CATALYST, Models.GENERATED);
         itemModelGenerator.register(ModItems.OPPOSITE_CATALYST, Models.GENERATED);
         itemModelGenerator.register(ModItems.HEMLOCK_STAFF, Models.GENERATED);
@@ -44,6 +51,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.SYMBIOSIS_CATALYST, Models.GENERATED);
         itemModelGenerator.register(ModItems.OVERSPELL_CATALYST, Models.GENERATED);
         itemModelGenerator.register(ModItems.TROPIC_INVOKER, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ELECTRO_RING, Models.GENERATED);
 
     }
 }

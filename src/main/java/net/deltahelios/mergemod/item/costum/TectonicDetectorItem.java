@@ -41,7 +41,7 @@ public class TectonicDetectorItem extends Item {
                 }
             }
             if(!foundBlock){
-                player.sendMessage(Text.literal("No High Value Ores Found!"), true);
+                player.sendMessage(Text.literal("§bNo High Value Ores Found!"), true);
             }
         }
         context.getStack().damage(1, context.getPlayer(), playerEntity -> playerEntity.sendToolBreakStatus(playerEntity.getActiveHand() ));
@@ -50,7 +50,7 @@ public class TectonicDetectorItem extends Item {
     }
 
     private void outputValuableCoordinates(BlockPos blockPos , PlayerEntity player, Block block) {
-        player.sendMessage(Text.literal("Detected "+block.asItem().getName().getString() + " at y coordinates " + blockPos.getY()), true);
+        player.sendMessage(Text.literal("§bDetected "+block.asItem().getName().getString() + " at y coordinates " + blockPos.getY()), true);
     }
 
     private boolean isValuableBlock(BlockState state) {
@@ -59,7 +59,7 @@ public class TectonicDetectorItem extends Item {
     @Override
     public Rarity getRarity(ItemStack stack) {
 
-        return Rarity.EPIC;
+        return Rarity.RARE;
     }
 
 }

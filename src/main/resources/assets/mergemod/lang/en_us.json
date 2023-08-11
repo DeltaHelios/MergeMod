@@ -21,6 +21,7 @@
   "item.mergemod.steel_ingot": "Steel Ingot",
   "item.mergemod.rose_gold_ingot": "Rose Gold Ingot",
   "item.mergemod.silver_ingot":"Silver Ingot",
+  "item.mergemod.electrum_ingot": "Electrum Ingot",
 
   "item.mergemod.raw_silver": "Raw Silver",
 
@@ -29,6 +30,7 @@
   "item.mergemod.tectonic_detector": "Tectonic Detector",
   "item.mergemod.hemlock_staff": "Hemlock Staff",
   "item.mergemod.tropic_invoker": "Tropics Invoker",
+  "item.mergemod.electro_ring": "Electro Ring",
 
   "key.category.mergemod.mergemod": "Mergemod",
   "key.mergemod.ability": "Primary Ability",

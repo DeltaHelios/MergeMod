@@ -1,10 +1,7 @@
 package net.deltahelios.mergemod.item;
 
 import net.deltahelios.mergemod.MergeMod;
-import net.deltahelios.mergemod.item.costum.Catalyst;
-import net.deltahelios.mergemod.item.costum.HemlockStaffItem;
-import net.deltahelios.mergemod.item.costum.TectonicDetectorItem;
-import net.deltahelios.mergemod.item.costum.TropicInvokerItem;
+import net.deltahelios.mergemod.item.costum.*;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -30,10 +27,12 @@ public class ModItems {
     public static final Item STEEL_INGOT = registerItem("steel_ingot", new Item(new FabricItemSettings()));
     public static final Item ROSE_GOLD_INGOT = registerItem("rose_gold_ingot", new Item(new FabricItemSettings()));
     public static final Item SILVER_INGOT = registerItem("silver_ingot", new Item(new FabricItemSettings()));
+    public static final Item ELECTRUM_INGOT = registerItem("electrum_ingot", new Item(new FabricItemSettings()));
     public static final Item RAW_SILVER = registerItem("raw_silver", new Item(new FabricItemSettings()));
     public static final Item TECTONIC_DETECTOR = registerItem("tectonic_detector", new TectonicDetectorItem(new FabricItemSettings().maxDamage(64)));
     public static final Item HEMLOCK_STAFF= registerItem("hemlock_staff", new HemlockStaffItem(ToolMaterials.WOOD, 4, -3.5f, new FabricItemSettings().maxDamage(128)));
     public static final Item TROPIC_INVOKER = registerItem("tropic_invoker", new TropicInvokerItem(new FabricItemSettings().maxDamage(64).rarity(Rarity.RARE)));
+    public static final Item ELECTRO_RING = registerItem("electro_ring", new ElectroRingItem(new FabricItemSettings().maxDamage(64).rarity(Rarity.RARE)));
 
 
     private static void addItemsToIngridientItemGroup(FabricItemGroupEntries entries){

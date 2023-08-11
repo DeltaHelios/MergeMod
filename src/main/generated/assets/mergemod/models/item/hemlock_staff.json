@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "mergemod:item/hemlock_staff"
-  }
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "mergemod:item/hemlock_staff"
+	}
 }
