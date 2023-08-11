@@ -1,0 +1,7 @@
+// 1.20.1	2023-08-10T21:23:02.537625	Merge Mod/Tags for minecraft:block
+9d61ddf2b870e70265a62a82d3f3090931bf462e data\minecraft\tags\blocks\needs_stone_tool.json
+9d61ddf2b870e70265a62a82d3f3090931bf462e data\minecraft\tags\blocks\mineable\axe.json
+97f0131f3470f2ea7fdf4078c655d1a16bd13085 data\minecraft\tags\blocks\mineable\pickaxe.json
+7a320fc87a4551356dec9e73f3674c34b1113b2f data\mergemod\tags\blocks\tectonic_detector_detectable_blocks.json
+97f0131f3470f2ea7fdf4078c655d1a16bd13085 data\minecraft\tags\blocks\needs_iron_tool.json
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\fabric\tags\blocks\needs_tool_level_4.json

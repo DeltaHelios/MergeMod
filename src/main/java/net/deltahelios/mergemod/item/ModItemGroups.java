@@ -21,8 +21,10 @@ public class ModItemGroups {
                         entries.add(ModItems.SIMILAR_CATALYST);
                         entries.add(ModItems.SYMBIOSIS_CATALYST);
                         entries.add(ModItems.OVERGROWTH_CATALYST);
-                        entries.add(ModItems.OVERFLOW_CATALYST);
                         entries.add(ModItems.OVERCHARGE_CATALYST);
+                        entries.add(ModItems.OVERSPELL_CATALYST);
+                        entries.add(ModItems.OVERFLOW_CATALYST);
+
 
                     }).build());
     public static final ItemGroup INGRIDIENTS_GROUP = Registry.register(Registries.ITEM_GROUP,
@@ -50,6 +52,7 @@ public class ModItemGroups {
 
                         entries.add(ModItems.TECTONIC_DETECTOR);
                         entries.add(ModItems.HEMLOCK_STAFF);
+                        entries.add(ModItems.TROPIC_INVOKER);
 
                     }).build());
     public static final ItemGroup BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,

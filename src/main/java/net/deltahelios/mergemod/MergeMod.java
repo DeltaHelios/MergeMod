@@ -1,6 +1,7 @@
 package net.deltahelios.mergemod;
 
 import net.deltahelios.mergemod.block.ModBlocks;
+import net.deltahelios.mergemod.item.ModFuels;
 import net.deltahelios.mergemod.item.ModItemGroups;
 import net.deltahelios.mergemod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -20,7 +21,9 @@ public class MergeMod implements ModInitializer {
 
 		ModItemGroups.registerItemGroups();
 
-		FuelRegistry.INSTANCE.add(ModItems.BLAZING_COAL, 3200);
+		ModFuels.registerFuels();
+
+
 
 	}
 }

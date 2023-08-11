@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "mergemod:rose_gold_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "mergemod:rose_gold_ingot"
+  }
+}

@@ -6,6 +6,7 @@
   "item.mergemod.overflow_catalyst": "Overflow Catalyst",
   "item.mergemod.overgrowth_catalyst": "Overgrowth Catalyst",
   "item.mergemod.overcharge_catalyst": "Overcharge Catalyst",
+  "item.mergemod.overspell_catalyst": "Overspell Catalyst",
 
   "block.mergemod.rose_gold_block": "Rose Gold Block",
   "block.mergemod.steel_block": "Steel Block",
@@ -27,6 +28,7 @@
 
   "item.mergemod.tectonic_detector": "Tectonic Detector",
   "item.mergemod.hemlock_staff": "Hemlock Staff",
+  "item.mergemod.tropic_invoker": "Tropics Invoker",
 
   "key.category.mergemod.mergemod": "Mergemod",
   "key.mergemod.ability": "Primary Ability",

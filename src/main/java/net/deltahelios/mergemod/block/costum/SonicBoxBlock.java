@@ -20,7 +20,7 @@ public class SonicBoxBlock extends Block {
     public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit){
 
         world.playSound(player, pos, SoundEvents.ENTITY_LIGHTNING_BOLT_IMPACT, SoundCategory.BLOCKS, 1f, 2f);
-        player.addVelocity((player.getX()- pos.getX())/2f, (player.getY() - pos.getY())/2f,(player.getZ()- pos.getZ())/2f);
+        player.addVelocity((player.getX()- pos.getX()-0.5)/2f, (player.getY() - pos.getY()-0.5)/2f,(player.getZ()- pos.getZ()-0.5)/2f);
         return ActionResult.SUCCESS;
     }
 }

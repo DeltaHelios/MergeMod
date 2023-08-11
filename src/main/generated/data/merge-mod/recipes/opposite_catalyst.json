@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "mergemod:steel_ingot"
+    },
+    "B": {
+      "item": "minecraft:blaze_powder"
+    },
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "I": {
+      "item": "minecraft:ice"
+    }
+  },
+  "pattern": [
+    "#B#",
+    "#G#",
+    "#I#"
+  ],
+  "result": {
+    "item": "mergemod:opposite_catalyst"
+  },
+  "show_notification": true
+}
