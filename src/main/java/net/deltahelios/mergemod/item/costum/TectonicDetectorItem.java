@@ -22,6 +22,7 @@ public class TectonicDetectorItem extends Item {
         super(settings);
     }
 
+
     @Override
     public ActionResult useOnBlock(ItemUsageContext context) {
         if(!context.getWorld().isClient()){
@@ -44,6 +45,7 @@ public class TectonicDetectorItem extends Item {
             }
         }
         context.getStack().damage(1, context.getPlayer(), playerEntity -> playerEntity.sendToolBreakStatus(playerEntity.getActiveHand() ));
+        context.getPlayer().getItemCooldownManager().set(this, 100);
         return ActionResult.SUCCESS;
     }
 

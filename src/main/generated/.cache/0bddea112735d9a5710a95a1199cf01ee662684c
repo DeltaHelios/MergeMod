@@ -1,6 +1,6 @@
-// 1.20.1	2023-08-10T21:23:02.5366044	Merge Mod/Model Definitions
-95f4a6406ec0ff682e9825684be0ca66677f2a2f assets\mergemod\models\block\sonic_box.json
+// 1.20.1	2023-08-11T09:13:36.110176	Merge Mod/Model Definitions
 69e2c7f0e795026f0cd1bd962fcf539d1f34f904 assets\mergemod\models\item\silver_ingot.json
+95f4a6406ec0ff682e9825684be0ca66677f2a2f assets\mergemod\models\block\sonic_box.json
 af57074a50028e6f6ca96351b9b710212246a223 assets\mergemod\models\item\similar_catalyst.json
 226ba53dec60d9f75ed4fa91dcf34b3d93980f46 assets\mergemod\models\item\tropic_invoker.json
 9430fcf3650c3e9638e2a589ec593740acecd7fd assets\mergemod\blockstates\deepslate_silver_ore.json
@@ -9,17 +9,17 @@ bf95f8515e0a6195d99d401beec828bcc614cc18 assets\mergemod\models\item\overgrowth_
 06e9c90faa790d35893511d483621cab50cf0618 assets\mergemod\models\block\steel_block.json
 180daef55d007a9496f1598312e7be6ed196e6ab assets\mergemod\models\item\tectonic_detector.json
 24b33b6673a478f71188c5dda95abece259ef5e4 assets\mergemod\blockstates\silver_block.json
-3cbc034b686351675d6c9bd1e1e30e2056deb1a4 assets\mergemod\models\item\blazing_coal.json
 683b14b479578725fb2c4fc9fc0dc603e056a29f assets\mergemod\models\item\rose_gold_ingot.json
+3cbc034b686351675d6c9bd1e1e30e2056deb1a4 assets\mergemod\models\item\blazing_coal.json
 83c4466ecd5547d9fb79077fc9162981f7f6c322 assets\mergemod\blockstates\sonic_box.json
 172038d4f28256267c6a830a47bad2711e40c674 assets\mergemod\models\item\overspell_catalyst.json
 0e2f8378be790a2cc7383197f2ec50314077e646 assets\mergemod\models\block\silver_block.json
 6c4814127aa71ffefcce1d25e43bc0ceb2f1192c assets\mergemod\models\item\raw_silver.json
 ac65ac281c86f7154c2c3cdc15188029d4cf4654 assets\mergemod\models\item\opposite_catalyst.json
 063677fca049b26a4c0d67253e5c7f1bbb700dbf assets\mergemod\models\item\steel_ingot.json
-5a776f79472d5be78e222635a9977b729ecfe107 assets\mergemod\models\block\rose_gold_block.json
-5328acbcb88004ad62f6746858b25a761a4597c5 assets\mergemod\models\item\hemlock_staff.json
 d5bec83fe95302ba1126965f4b476adabedd9900 assets\mergemod\models\item\empty_catalyst.json
+5328acbcb88004ad62f6746858b25a761a4597c5 assets\mergemod\models\item\hemlock_staff.json
+5a776f79472d5be78e222635a9977b729ecfe107 assets\mergemod\models\block\rose_gold_block.json
 36d835340c1fe5c6f6e3593128992fb415847ed9 assets\mergemod\blockstates\steel_block.json
 402e57cac753eedcf6acf977883b403429f03666 assets\mergemod\models\block\silver_ore.json
 816d9464712dc337f62f7f3f13ec72d4debaeb7b assets\mergemod\blockstates\silver_ore.json

@@ -1,18 +1,18 @@
-// 1.20.1	2023-08-10T21:23:02.537625	Merge Mod/Recipes
+// 1.20.1	2023-08-11T09:13:36.1122028	Merge Mod/Recipes
 63c2cf74256077717e305e505266e64d22a824d4 data\merge-mod\advancements\recipes\misc\silver_ingot_from_smelting_deepslate_silver_ore.json
 3149a529c2381557198cf8fffadda3980fdc8c13 data\merge-mod\recipes\silver_ingot.json
 422e59f681448eaeaa6ff450a39fcab50645bd7e data\merge-mod\recipes\silver_ingot_from_smelting_silver_ore.json
 1aefbeb1cc77986a1483e8a1e59b30c0db2049f6 data\merge-mod\advancements\recipes\misc\silver_ingot_from_smelting_raw_silver.json
 9e044301297e2c7075a34a41b26d32717af4179b data\merge-mod\recipes\rose_gold_block.json
 91b2007f98f8ab6570d981772a9342cee77204b0 data\merge-mod\advancements\recipes\building_blocks\steel_ingot.json
-f1fdc6d1275214b7dcdc952ca02e0050c9a70e15 data\merge-mod\recipes\steel_ingot.json
 5cf5fc42e15da0ec229cfd12b885a2a68e703132 data\merge-mod\advancements\recipes\building_blocks\silver_block.json
+f1fdc6d1275214b7dcdc952ca02e0050c9a70e15 data\merge-mod\recipes\steel_ingot.json
 c3d3177de6dbb8e6070430620a95870c9206239b data\merge-mod\advancements\recipes\building_blocks\rose_gold_ingot.json
 99b6ff5174547426ace107647bb5b469a01d6c02 data\merge-mod\recipes\silver_ingot_from_blasting_raw_silver.json
 bf73a7248e4ce08fe93fbff9225d3013c2c1536a data\merge-mod\advancements\recipes\misc\silver_ingot_from_blasting_raw_silver.json
 7961e39ad3c2167d1cf3fadffd511a8b93e4963c data\merge-mod\advancements\recipes\misc\opposite_catalyst.json
-1392c1926b6b2052f64a6ba565170121bc4aeec1 data\merge-mod\advancements\recipes\building_blocks\steel_block.json
 9424d81c70c0c36e623b885b1d358c1b39b4ed8c data\merge-mod\recipes\rose_gold_ingot.json
+1392c1926b6b2052f64a6ba565170121bc4aeec1 data\merge-mod\advancements\recipes\building_blocks\steel_block.json
 93cbe2682982b0176f139589ab0bb04bd3fdf3e8 data\merge-mod\advancements\recipes\building_blocks\silver_ingot.json
 2a1785c14dbb1ceccfb06de5a2ee288d2966fb7e data\merge-mod\recipes\steel_block.json
 c006572dcd4ce30cdd02e2858311cec678b227a8 data\merge-mod\recipes\opposite_catalyst.json
