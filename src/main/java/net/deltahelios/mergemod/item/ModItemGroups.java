@@ -62,6 +62,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModBlocks.SONIC_BOX)).entries((displayContext, entries) -> {
 
                         entries.add(ModBlocks.SONIC_BOX);
+                        entries.add(ModBlocks.ALLOY_FORGE);
 
 
                     }).build());

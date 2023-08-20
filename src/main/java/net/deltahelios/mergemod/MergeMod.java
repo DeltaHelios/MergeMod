@@ -1,9 +1,11 @@
 package net.deltahelios.mergemod;
 
 import net.deltahelios.mergemod.block.ModBlocks;
+import net.deltahelios.mergemod.block.entity.ModBlockEntities;
 import net.deltahelios.mergemod.item.ModFuels;
 import net.deltahelios.mergemod.item.ModItemGroups;
 import net.deltahelios.mergemod.item.ModItems;
+import net.deltahelios.mergemod.screen.ModScreenHandlers;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.registry.FuelRegistry;
@@ -23,7 +25,7 @@ public class MergeMod implements ModInitializer {
 
 		ModFuels.registerFuels();
 
-
-
+		ModBlockEntities.registerAllBlockEntities();
+		ModScreenHandlers.registerAllScreenHandlers();
 	}
 }

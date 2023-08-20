@@ -14,7 +14,7 @@ public class HemlockStaffItem extends SwordItem {
 
     @Override
     public boolean postHit(ItemStack stack, LivingEntity target, LivingEntity attacker) {
-        target.addStatusEffect(new StatusEffectInstance(StatusEffects.POISON, 100, 1), attacker);
+        target.addStatusEffect(new StatusEffectInstance(StatusEffects.POISON, 150, 1), attacker);
         return super.postHit(stack, target, attacker);
     }
     @Override

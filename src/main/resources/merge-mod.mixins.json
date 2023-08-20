@@ -5,6 +5,12 @@
 	"mixins": [
 		"ExampleMixin"
 	],
+	"client": [
+		"ItemRenderAccessor",
+		"ItemRendererMixin",
+		"ModelLoaderMixin"
+
+	],
 	"injectors": {
 		"defaultRequire": 1
 	}
